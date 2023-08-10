@@ -26,7 +26,7 @@ function my_mousemove(e) {
     if (mouseEvent == "mousedown") {
         ctx.beginPath();
         ctx.strokeStyle = color;
-        ctx.lineWidth = width_of_line;
+        ctx.lineWidth = 5;
 
         console.log("Last position of x and y:");
         console.log(last_mouseX + ", " + last_mouseY);

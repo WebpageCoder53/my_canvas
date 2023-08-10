@@ -2,6 +2,8 @@ canvas = document.getElementById("myCanvas");
 color = "red";
 ctx=canvas.getContext("2d");
 var mouseEvent = "empty";
+var last_mouseX;
+var last_mouseY;
 canvas.addEventListener("mousedown", my_mousedown);
 canvas.addEventListener("mouseleave", my_mouseleave);
 canvas.addEventListener("mouseup", my_mouseup);

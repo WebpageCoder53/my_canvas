@@ -1,16 +1,13 @@
 canvas = document.getElementById("myCanvas");
 color = "red";
 ctx=canvas.getContext("2d");
-
+var mouseEvent = "empty";
 canvas.addEventListener("mousedown", my_mousedown);
 canvas.addEventListener("mouseleave", my_mouseleave);
 canvas.addEventListener("mouseup", my_mouseup);
 canvas.addEventListener("mousemove", my_mousemove);
 
 function my_mousedown(e) {
-    color=document.getElementById("color").value;
-    width_of_line=document.getElementById("width_of_line").value;
-
     mouseEvent="mousedown";
 }
 
